@@ -5,4 +5,3 @@ SKILESX:
 	.word   36,59
 	.long   SKILESXP
 	.TEXT
-

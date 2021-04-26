@@ -265,4 +265,3 @@ SPCT:
 	.word   0,0
 	.long   CITYP
 	.TEXT
-

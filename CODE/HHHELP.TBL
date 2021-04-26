@@ -45,4 +45,3 @@ PURPLEN:
 	.word   25,-75
 	.long   INSTRUCP
 	.TEXT
-

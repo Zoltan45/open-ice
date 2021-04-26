@@ -390,4 +390,3 @@ TAMPA1:
 	.word   35,29
 	.long   TAMPA1P
 	.TEXT
-

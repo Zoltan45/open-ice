@@ -1025,4 +1025,3 @@ HAEGOL15:
 	.long   077a1700H
 	.word   12,31
 	.TEXT
-

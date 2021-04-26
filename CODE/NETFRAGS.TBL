@@ -428,4 +428,3 @@ FHKEXPLOC11:
 	.long   03f047acH
 	.word   13,63
 	.TEXT
-

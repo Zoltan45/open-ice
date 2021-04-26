@@ -41,4 +41,3 @@ GHOWE15:
 	.long   07f3a4c9H
 	.word   10,30
 	.TEXT
-

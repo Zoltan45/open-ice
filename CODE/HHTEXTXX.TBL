@@ -15,4 +15,3 @@ CIRCLER:
 	.word   0,0
 	.long   GFONT10CP
 	.TEXT
-

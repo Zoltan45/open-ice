@@ -259,4 +259,3 @@ ADJXTOTMULT     equ  35
 ADJBTOTMULT     equ  36
 LAST_ADJUST     EQU	36
 
-

@@ -55,4 +55,3 @@ HNONOF05:
 	.word   38,138
 	.long   HCLIPF01P
 	.TEXT
-

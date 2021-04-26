@@ -858,7 +858,7 @@ a_set_loopc
 **************************************************************************
 *								         *
 * a_dec_or_lshoot - decrements loop count				 *
-* 		 loops if count <>0 or shoot button is up		 *
+* 		 loops if count <00H or shoot button is up		 *
 * 		 aborts if mode is not PM_BLOCK (we've been hit)	 *
 * 		 aborts if we are in ignore mode (we just hit puck)	 *
 * 	parameters (2 words)						 *

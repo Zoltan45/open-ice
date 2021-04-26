@@ -30,4 +30,3 @@ GETREADYFOR17:
 	.word   32,0
 	.long   GFONT10CP
 	.TEXT
-

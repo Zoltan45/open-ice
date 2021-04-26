@@ -2169,12 +2169,12 @@ gdp_9	mmfm	sp,a9,a11
 	rets
 gdp_a	move	a0,a11
 	sll	16,a11
-	cmpi	RGHT_GOALLINE_X>>16,a0
+	cmpi	RGHT_GOALLINE_X>016H,a0
 	jrgt	gdp_beh
 	cmpi	522,a0
 	jrgt	gdp_cls
 gdp_far subi	RGHT_BLUELINE_X,a11
-	movi	522-(RGHT_BLUELINE_X>>16),a9
+	movi	522-(RGHT_BLUELINE_X>016H),a9
 	divs	a9,a11
 	move	a11,a10
 	move	a1,a11
@@ -2184,7 +2184,7 @@ gdp_far subi	RGHT_BLUELINE_X,a11
 	movi	ort_5,a9
 	jruc	gdp_8
 gdp_cls subi	[522,0],a11
-	movi	(RGHT_GOALLINE_X>>16)-522,a9
+	movi	(RGHT_GOALLINE_X>016H)-522,a9
 	divs	a9,a11
 	move	a11,a10
 	move	a1,a11
@@ -2194,7 +2194,7 @@ gdp_cls subi	[522,0],a11
 	movi	ort_4,a9
 	jruc	gdp_8
 gdp_beh subi	RGHT_GOALLINE_X,a11
-	movi	(RGHT_ENDBOARD_X-RGHT_GOALLINE_X)>>16,A9
+	movi	(RGHT_ENDBOARD_X-RGHT_GOALLINE_X)>016H,A9
 	divs	a9,a11
 	move	a11,a10
 	move	a1,a11

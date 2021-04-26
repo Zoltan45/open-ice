@@ -300,4 +300,3 @@ SMBRST10:
 	.word   6,4
 	.long   SMBRST01P
 	.TEXT
-

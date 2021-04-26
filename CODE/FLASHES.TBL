@@ -15,4 +15,3 @@ flash2:
 	.word   15,15
 	.long   FLASHP
 	.TEXT
-

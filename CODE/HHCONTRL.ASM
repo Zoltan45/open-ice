@@ -236,12 +236,12 @@ ffbgcdp	mmtm	sp,a0,a1,a2
 	move	a14,a1
 	sra	16,a1
 	movy	a3,a1		;player
-	movi	(RGHT_GOALLINE_X+GOAL_DEPTH_X)>>16,a2
+	movi	(RGHT_GOALLINE_X+GOAL_DEPTH_X)>016H,a2
 	calla	get_z_from_x_midpoint
 	sra	16,a2
-	cmpi	(TOP_GOALPOST_Z>>16)+5,a2
+	cmpi	(TOP_GOALPOST_Z>016H)+5,a2
 	jrgt	ffbd_8
-	cmpi	(BOT_GOALPOST_Z>>16)-5,a2
+	cmpi	(BOT_GOALPOST_Z>016H)-5,a2
 	jrlt	ffbd_8
 	mmfm	sp,a0,a1,a2
 	move	a3,a1
@@ -263,12 +263,12 @@ ffbgcgl	mmtm	sp,a0,a1,a2
 	move	a14,a1
 	sra	16,a1
 	movy	a3,a1		;player
-	movi	RGHT_GOALLINE_X>>16,a2
+	movi	RGHT_GOALLINE_X>016H,a2
 	calla	get_z_from_x_midpoint
 	sra	16,a2
-	cmpi	(TOP_GOALPOST_Z>>16)+5,a2
+	cmpi	(TOP_GOALPOST_Z>016H)+5,a2
 	jrgt	ffbg_8
-	cmpi	(BOT_GOALPOST_Z>>16)-5,a2
+	cmpi	(BOT_GOALPOST_Z>016H)-5,a2
 	jrlt	ffbg_8
 	mmfm	sp,a0,a1,a2
 	move	a3,a1

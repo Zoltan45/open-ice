@@ -5,4 +5,3 @@ PLWAIT:
 	.word   23,7
 	.long   LSTNME1P
 	.TEXT
-

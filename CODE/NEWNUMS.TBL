@@ -20,4 +20,3 @@ P04:
 	.word   6,0
 	.long   FONTGRYP
 	.TEXT
-

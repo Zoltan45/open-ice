@@ -50,4 +50,3 @@ goal5b:
 	.word   26,65
 	.long   GOALP
 	.TEXT
-

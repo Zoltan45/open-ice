@@ -5,4 +5,3 @@ DUCKSLOGO2:
 	.word   33,25
 	.long   ducks2p
 	.TEXT
-

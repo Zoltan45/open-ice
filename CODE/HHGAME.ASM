@@ -1108,7 +1108,7 @@ sggg1	calla	init_speech_buffer
 	rets
 
 clear_all_player_blocks
-	movi	(8*PLAYER_BLOCK_SIZE)>>8,a2	;8 players * block size >>3 to byte >>2 to longword >>3 8 stores/loop
+	movi	(8*PLAYER_BLOCK_SIZE)>08H,a2	;8 players * block size >03H to byte >02H to longword >03H 8 stores/loop
 	movi	PLAYER_1_BLOCK,a1
 plup	move	a0,*a1+,L
 	move	a0,*a1+,L

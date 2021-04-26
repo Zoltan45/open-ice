@@ -30,4 +30,3 @@ STAR306:
 	.word   70,58
 	.long   STAR301P
 	.TEXT
-

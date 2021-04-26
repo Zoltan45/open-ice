@@ -65,4 +65,3 @@ TOPBAR02:
 	.word   -15,0
 	.long   TOPBAR01P
 	.TEXT
-

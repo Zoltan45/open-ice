@@ -265,7 +265,7 @@ nadj4	mmfm	sp,a0,a14
 	MOVE	A3,*A6(POF_SHOT_ATTEMPTS),W		;CLEAR SCORER'S ATTEMPTS
 	movb	*a4,a3
 	inc	a3
-	movb	a3,*a4	;assume we don't get >255 goals/period
+	movb	a3,*a4	;assume we don't get 0255H goals/period
 	cmpi	1,a14
 	jrz	rg_na	;we went back 8, no assist
 	callr	rtea
@@ -294,7 +294,7 @@ nadj5	mmfm	sp,a0
 	add	a6,a4	;a4 POF_ASSISTS offset by period
 	movb	*a4,a3
 	inc	a3
-	movb	a3,*a4	;assume we don't get >255 goals/period
+	movb	a3,*a4	;assume we don't get 0255H goals/period
 rga9	mmfm	sp,a1,a2,a3,a4,a6
 	rets
 

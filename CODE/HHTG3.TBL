@@ -235,4 +235,3 @@ WMASKD04:
 	.word   37,61
 	.long   BCOLOmsk1
 	.TEXT
-

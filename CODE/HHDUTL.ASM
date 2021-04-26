@@ -580,7 +580,7 @@ DSC_VBLNK_WAIT
 *	color to clear to stored in Lines 510 and 511
 	movi	255,B2			;GET AUTO ERASE LINE
 	MOVI	SCRTOP*1000h,B8
-	MOVI	[((SCRBOT)-(SCRTOP)+1)>>1,1],B7
+	MOVI	[((SCRBOT)-(SCRTOP)+1)>01H,1],B7
 
 	sll	12,b8			;CONVERT TO LINEAR
 	move	@CONVDP,A12,W
@@ -634,4 +634,3 @@ SrtDmaWt:
    	MOVE 	A13,@DPYCTL,W		;Copy display control reg.
 	rets
 
-

@@ -400,4 +400,3 @@ FONT15r:
 	.word   0,-3
 	.long   onecolor
 	.TEXT
-

@@ -100,4 +100,3 @@ BAH_MESS:
 	.word   30,0
 	.long   GFONT10CP
 	.TEXT
-

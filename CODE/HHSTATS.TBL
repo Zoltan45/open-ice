@@ -150,4 +150,3 @@ COMPF03:
 	.word   -16,-15
 	.long   FLASHA01P
 	.TEXT
-

@@ -100,4 +100,3 @@ COILOGO1:
 	.word   -3,0
 	.long   COILOGO1P
 	.TEXT
-

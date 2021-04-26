@@ -187,4 +187,3 @@ FHKEXPLOC11:
 	.long   02000eH
 	.word   13,63
 	.TEXT
-

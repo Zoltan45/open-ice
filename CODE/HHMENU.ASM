@@ -2454,7 +2454,7 @@ MENU_LOOP
 	JRUC	MENU_LOOP
 ML1
 ;************
-;	movi	>3e1,a4
+;	movi	03e1H,a4
 ;	calla	SEND_RAW_CODE
 ;************
 

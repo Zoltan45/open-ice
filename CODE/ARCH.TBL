@@ -5,4 +5,3 @@ HOLDING:
 	.word   62,-2
 	.long   DISCLAI2P
 	.TEXT
-

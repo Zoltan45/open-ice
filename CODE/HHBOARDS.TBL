@@ -520,4 +520,3 @@ SLAMXR8:
 	.word   106,101
 	.long   CHICORN1
 	.TEXT
-

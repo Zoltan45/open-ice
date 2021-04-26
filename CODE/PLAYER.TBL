@@ -65,4 +65,3 @@ cpu:
 	.word   9,-2
 	.long   scorep
 	.TEXT
-

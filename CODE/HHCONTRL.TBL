@@ -50,4 +50,3 @@ shadow12:
 	.word   20,2
 	.long   shad_p
 	.TEXT
-

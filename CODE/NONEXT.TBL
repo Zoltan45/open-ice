@@ -5,4 +5,3 @@ STACHA2a:
 	.word   42,42
 	.long   STAN128a
 	.TEXT
-

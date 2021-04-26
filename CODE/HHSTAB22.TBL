@@ -725,4 +725,3 @@ EVILM01:
 	.word   36,58
 	.long   EVILM01P
 	.TEXT
-

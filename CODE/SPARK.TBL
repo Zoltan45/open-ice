@@ -25,4 +25,3 @@ SPARK05:
 	.word   13,11
 	.long   SPARKP
 	.TEXT
-

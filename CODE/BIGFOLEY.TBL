@@ -5,4 +5,3 @@ BGFOLEY1:
 	.word   91,182
 	.long   BGFOLEY1P
 	.TEXT
-

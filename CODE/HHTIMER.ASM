@@ -800,7 +800,7 @@ game_timer
 
 gt_0	move	@WAVEIRQS,a10,L
 	callr	gnt_1
-gt_1	move	@timer_on,a0,W		;>0 = on for t
+gt_1	move	@timer_on,a0,W		;00H = on for t
 	jrz	gt_2			; 0 = off
 	dec	a0			;<0 = on always
 	move	a0,@timer_on,W
