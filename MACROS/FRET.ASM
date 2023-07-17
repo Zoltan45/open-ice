@@ -1,9 +1,0 @@
-*
-*FRET - FUNCTION RETURN WITHOUT USING THE SYSTEM STACK
-*	FCALL	ROUTINE, BREG
-*
-FRET    .macro BREG
-         EXGPC :BREG:
-        .endm
-
-

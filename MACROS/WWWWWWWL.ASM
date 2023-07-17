@@ -1,4 +1,0 @@
-WWWWWWWL .macro	a1,a2,a3,a4,a5,a6,a7,a8
-	.word	:a1:,:a2:,:a3:,:a4:,:a5:,:a6:,:a7:
-	.long	:a8:
-	.endm
